@@ -1,0 +1,7 @@
+[Unit]
+Description=MT mirror
+Wants=default.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /home/nik/mt/mt-mirror.py
